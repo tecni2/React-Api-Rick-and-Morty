@@ -32,11 +32,11 @@ function App() {
       <Header/>
       <div className="card-info">
         <div>
-          <h2>Nombre:</h2>
+          <h2>Name:</h2>
           <p>{dataMorty.name}</p>
         </div>
         <div>
-          <h2>Tipo:</h2>
+          <h2>Type:</h2>
           <p>{dataMorty.type}</p>
         </div>
         <div>
@@ -44,7 +44,7 @@ function App() {
           <p>{dataMorty.dimension}</p>
         </div>
         <div>
-          <h2>Población:</h2>
+          <h2>Population:</h2>
           <p>{dataMorty.residents?.length}</p>
         </div>
         {/* <button onClick={() => setCount((count) => count + 1)}>
