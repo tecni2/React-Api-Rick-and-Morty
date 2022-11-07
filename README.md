@@ -11,4 +11,4 @@
  * 9. Normalize.css
  # App en React + Vite consumiendo la api de los personajes de Rick and Morty.
  
- * Link del proyecto => 
+ * Link del proyecto => https://eleazar-chusmita-api-rick-and-morty.netlify.app/
