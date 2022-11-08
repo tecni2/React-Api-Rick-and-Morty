@@ -5,11 +5,10 @@
   --cuarto: #adadad;
   --typography: rgba(251, 251, 251, 1);
 
-  /* background: rgba(251, 251, 251, 1);
+  /*
 background: rgba(126, 126, 126, 1);
 background: rgba(6, 34, 38, 1);
 background: rgba(8, 72, 81, 1);
-background: rgba(255, 255, 255, 1);
 background: rgba(147, 134, 134, 1);
 background: rgba(74, 182, 72, 1);
 background: rgba(185, 67, 67, 1); */
@@ -30,11 +29,11 @@ body {
   color: var(--typography);
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   body {
-    background-color: blueviolet;
+   
   }
-}
+} */
 
 .header {
   background: url("./assets/header.svg");
@@ -43,7 +42,6 @@ body {
   height: 372px;
   left: 0px;
   top: 0px;
-  /* height: 900px; */
 }
 
 .img-header2 {
@@ -80,7 +78,6 @@ body {
   justify-content: center;
   position: absolute;
   top: 555px;
-  /* left: 200px; */
   background: rgb(41, 41, 212);
   width: 100%;
   height: 30px;
@@ -95,9 +92,6 @@ body {
   height: 1596px;
   background: var(--segundo);
   border-radius: 10px;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .container-character {
@@ -113,7 +107,6 @@ body {
 }
 .character {
   padding: 15px;
-  /* margin-bottom: 15px; */
   width: auto;
   border: solid 1px forestgreen;
   border-radius: 10px;

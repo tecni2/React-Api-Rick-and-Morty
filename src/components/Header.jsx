@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
   return (
-    <div className='header'>
-      <div className='img-header2'></div>
-     
+    <div className="header">
+      <div className="img-header2"></div>
     </div>
   );
 };
