@@ -15,4 +15,4 @@
  * Link del proyecto => https://eleazar-chusmita-api-rick-and-morty.netlify.app/
 
  * imagen del proyecto =>
-
+![127 0 0 1_5173_](https://user-images.githubusercontent.com/29103120/200467324-af7590c7-04be-4ab0-b6e9-8a0dbe29b740.png)
