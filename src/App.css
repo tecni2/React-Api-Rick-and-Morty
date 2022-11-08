@@ -5,13 +5,6 @@
   --cuarto: #adadad;
   --typography: rgba(251, 251, 251, 1);
 
-  /*
-background: rgba(126, 126, 126, 1);
-background: rgba(6, 34, 38, 1);
-background: rgba(8, 72, 81, 1);
-background: rgba(147, 134, 134, 1);
-background: rgba(74, 182, 72, 1);
-background: rgba(185, 67, 67, 1); */
 }
 
 html {
@@ -91,7 +84,7 @@ margin-top: -15px;
   justify-content: center;
   position: absolute;
   top: 550px;
-  left: 375px;
+  left: 300px;
   width: 60%;
   height: 40px;
 }
