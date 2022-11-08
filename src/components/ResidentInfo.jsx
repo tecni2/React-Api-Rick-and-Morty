@@ -9,13 +9,14 @@ const ResidentInfo = ({ urlCharacter }) => {
     axios.get(urlCharacter).then((res) => setCharacterMorty(res.data));
   }, []);
 
-  console.log("Log de character", characterMorty);
+  // console.log("Log de character", characterMorty);
 
   return (
     <div className="character">
       <img src={characterMorty.image} alt="character" />
       <h3>
-        {characterMorty.name} {characterMorty.id}
+        {characterMorty.name}
+        {/* {characterMorty.id} */}
       </h3>
       <hr />
       <p>Race: {characterMorty.species}</p>

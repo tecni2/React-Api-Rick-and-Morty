@@ -44,23 +44,24 @@ function App() {
           <h2>Dimension:</h2>
           <p>{dataMorty.dimension}</p>
         </div>
-        <div>
+        <div className="div-population">
           <h2>Population:</h2>
           <p>{dataMorty.residents?.length}</p>
+        </div>
+        <div className="div-id">
+          <h2>ID:</h2>
+          <p>{dataMorty.id}</p>
         </div>
       </div>
       <div className="container-search">
         <input
           type="text"
           name="Search"
-          value={locationType}
+          placeholder="Enter number from 1 to 126"
           onChange={(e) => setLocationType(e.target.value)}
         />
 
-        <button type="submit" onClick={searchLocation}>
-          {" "}
-          Search{" "}
-        </button>
+        <button type="submit" onClick={searchLocation}> Search </button>
       </div>
 
       <div className="container-list-character">

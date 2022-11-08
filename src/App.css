@@ -25,20 +25,17 @@ html {
 }
 
 body {
+  width: 100%;
   background: var(--body-principal);
   color: var(--typography);
 }
-
-/* @media (max-width: 500px) {
-  body {
-   
-  }
-} */
 
 .header {
   background: url("./assets/header.svg");
   position: absolute;
   width: 1440px;
+  max-width: 1440px;
+  min-width: 300px;
   height: 372px;
   left: 0px;
   top: 0px;
@@ -68,19 +65,53 @@ body {
 }
 
 .card-info div {
-  width: 180px;
-  background: var(--tercero);
+  width: 200px;
+  height: 100px;
+  background: var(--typography);
   border-radius: 5px;
+  text-align: center;
+  color: var(--segundo);
+}
+
+.card-info .div-population {
+  width: 125px;
+}
+
+.card-info .div-id {
+  width: 70px;
+}
+
+.card-info div p {
+  font-size: 18px;
+margin-top: -15px;
 }
 
 .container-search {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 555px;
-  background: rgb(41, 41, 212);
-  width: 100%;
-  height: 30px;
+  top: 550px;
+  left: 375px;
+  width: 60%;
+  height: 40px;
+}
+
+input {
+  width: 300px;
+  font-size: 25px;
+  color: var(--segundo);
+  border: solid 1px forestgreen;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  margin-left: 5px;
+  width:80px;
+  font-size: 25px;
+  color: var(--segundo);
+  border: solid 1px forestgreen;
+  border-radius: 5px;
 }
 
 .container-list-character {
@@ -89,8 +120,9 @@ body {
   top: 610px;
   left: 275px;
   width: 800px;
-  height: 1596px;
+  min-height: 550px;
   background: var(--segundo);
+   border: solid 1px forestgreen;
   border-radius: 10px;
 }
 
@@ -102,17 +134,16 @@ body {
   gap: 20px;
   padding: 15px;
   width: auto;
-  border: solid 1px forestgreen;
   border-radius: 10px;
 }
 .character {
   padding: 15px;
-  width: auto;
+  width: 240px;
   border: solid 1px forestgreen;
   border-radius: 10px;
 }
 
 .character img {
-  width: 230px;
+  width: 205px;
   border-radius: 10px;
 }
